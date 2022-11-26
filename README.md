@@ -40,5 +40,5 @@
 
 <a href="https://www.java.com/" target="_blank"><img src="images\java.svg" alt="Java" height="80" /></a>
 <a href="https://www.selenium.dev" target="_blank"><img src="images\selenium.png" alt="Java" height="80" /></a>
-<a href="https://cucumber.io/" target="_blank"><img src="images\Cucumber.png" alt="Java" height="80" /></a>
+<a href="https://cucumber.io/" target="_blank"><img src="images\cucumber.png" alt="Java" height="80" /></a>
 </div>
