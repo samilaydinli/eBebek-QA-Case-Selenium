@@ -39,8 +39,8 @@ public class Test_Add_Product_To_Cart extends BaseTest{
     @Order(3)
     public void add_product_to_cart() throws InterruptedException {
         Thread.sleep(2000);
-        productDetailPage.addToCart();
         Assertions.assertTrue(productDetailPage.isOnProductDetailPage() , "We are not on product detail page ! ");
+        productDetailPage.addToCart();
     }
 
     @Test
