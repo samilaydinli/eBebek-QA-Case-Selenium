@@ -20,6 +20,7 @@ public class Test_Add_Product_To_Cart extends BaseTest{
     public void search_a_product(){
         homePage = new HomePage(driver);  //olusturdugu page leri initialize ediyorum.yoksa calısmaz
         productsPage = new ProductsPage(driver);
+        homePage.closeSurvery();
         homePage.acceptCookies();
         homePage.searchBox().search("kaşık maması");
         Assertions.assertTrue(productsPage.isOnProductsPage() , "We are not on products page ! ");
