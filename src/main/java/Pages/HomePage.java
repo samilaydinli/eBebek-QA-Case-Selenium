@@ -30,4 +30,10 @@ public class HomePage extends BasePage {
             click(closeCookiesLocator);
         }
     }
+    
+    public void closeSurvery(){
+        if(isDisplayed(closeSurveyLocator)){
+            click(closeSurveyLocator);
+        }
+    } 
 }
